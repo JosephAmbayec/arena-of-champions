@@ -32,33 +32,33 @@ This game is a single player experience with an AI that controls an enemy Champi
 13. The player should be sent back to the title screen if defeated in battle.
 
 ## 🤖 State Diagram
-![alt](./images/aoc_global_state_diagram.png)
+![alt](./Project%20Proposal/images/aoc_global_state_diagram.png)
 
-![alt](./images/player_state_diagram.png)
+![alt](./Project%20Proposal/images/player_state_diagram.png)
 
-![alt](./images/ai_state_diagram.png)
+![alt](./Project%20Proposal/images/ai_state_diagram.png)
 
 Note: Monsters do not have AI, they will simply follow the player's Champion around until they die or kill the Champion.
 
 ## 🗺️ Class Diagram
-![alt](./images/aoc_class_diagram.png)
+![alt](./Project%20Proposal/images/aoc_class_diagram.png)
 
 ## 🧵 Wireframes
-![alt](./images/titlescreen_wireframe.jpg)
+![alt](./Project%20Proposal/images/titlescreen_wireframe.jpg)
 - Play will navigate the player to the Champion Select Screen when
 - Load will load the round saved on disk and redirect to the Round Screen
 
-![alt](./images/champion_select_wireframe.jpg)
+![alt](./Project%20Proposal/images/champion_select_wireframe.jpg)
 - Select will navigate the player to the Round Screen
 - The arrow will move to the next Champion
 
-![alt](./images/round_wireframe.jpg)
+![alt](./Project%20Proposal/images/round_wireframe.jpg)
 - Abilities can be projectiles or area of effect
 
-![alt](./images/shop_wireframe.jpg)
+![alt](./Project%20Proposal/images/shop_wireframe.jpg)
 - Clicking on the plus symbol will upgrade the statistic but consume the xp based on it's cost.
 
-![alt](./images/menu_wireframe.jpg)
+![alt](./Project%20Proposal/images/menu_wireframe.jpg)
 - Selecting save will save the current game state to disk
 - Selecting exit will not save the current game and redirect to the Title Screen
 
@@ -66,7 +66,7 @@ Note: Monsters do not have AI, they will simply follow the player's Champion aro
 ### 📐 Tileset: [Pixel Art Top Down - Basic by Cainos](https://cainos.itch.io/pixel-art-top-down-basic)
 
 #### ⚔ Example of the Arena
-![Alpha Version of Arena](./images/simple%20arena.png)
+![Alpha Version of Arena](./Project%20Proposal/images/simple%20arena.png)
 
 This is a basic example of how an Arena would look like. There are two `spawns`, one player Champion spawn on the left, and one enemy Champion spwan on the right. This makes so that there is a distance between the two Champions. Monsters spawn `randomly` throughout the Arena. There will be collidable objects such as pillars as seen above.
 
@@ -77,7 +77,7 @@ The first Champion's sprite created by [gikeota](https://gikeota.itch.io/samurai
 
 The first Champion is Noro.
 
-![alt](./images/noro_slash.gif)
+![alt](./Project%20Proposal/images/noro_slash.gif)
 
 Noro is a visitor in this unknown realm. Which means he must defend himself from the locals. Noro's first ability slashes forward, slicing up his enemies. Noro's second ability is a dash/blink. This ability is aimed by the mouse.
 
