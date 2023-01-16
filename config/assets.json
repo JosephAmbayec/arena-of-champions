@@ -1,0 +1,79 @@
+{
+	"images": [
+		{
+			"name": "tiles",
+			"path": "./assets/images/tiles.png",
+			"width": 512,
+			"height": 1632
+		},
+		{
+			"name": "idle",
+			"path": "./assets/images/idle.png",
+			"width": 256,
+			"height": 32
+		},
+		{
+			"name": "noro",
+			"path": "./assets/images/noro.png",
+			"width": 320,
+			"height": 192
+		},
+		{
+			"name": "noroattack",
+			"path": "./assets/images/noroattack.png",
+			"width": 320,
+			"height": 128
+		},
+		{
+			"name": "monsters",
+			"path": "./assets/images/monsters.png",
+			"width": 96,
+			"height": 32
+		}
+
+	],
+	"fonts": [
+		{
+			"name": "Aetherius",
+			"path": "./assets/fonts/Aetherius.ttf"
+		},
+		{
+			"name": "CaesarDressing",
+			"path": "./assets/fonts/CaesarDressing.ttf"
+		}
+
+	],
+	"sounds": [
+		{
+			"name": "mainmusic",
+			"path": "./assets/sounds/mainmusic.mp3",
+			"size": 4,
+			"volume": 0.08,
+			"loop": true
+		},
+		{
+			"name": "selectionmove",
+			"path": "./assets/sounds/selectionmove.wav",
+			"size": 4,
+			"volume": 0.1
+		},
+		{
+			"name": "selectionchoice",
+			"path": "./assets/sounds/selectionchoice.wav",
+			"size": 4,
+			"volume": 0.1
+		},
+		{
+			"name": "hit",
+			"path": "./assets/sounds/hit.wav",
+			"size": 4,
+			"volume": 0.1
+		},
+		{
+			"name": "dash",
+			"path": "./assets/sounds/dash.wav",
+			"size": 4,
+			"volume": 0.1
+		}
+	]
+}
