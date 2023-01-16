@@ -1,0 +1,27 @@
+{
+  "name": "project-joseph-s-arena-main",
+  "version": "1.0.0",
+  "description": "In this top-down arena fighting game, players take control of a Champion and use their Champion's abilities to fight monsters and other AI controlled Champions. The goal of this game is to defeat waves of monsters as well as show off the players skill when battling against another Champion. The players skill will be rewarded with experience points that can be used to upgrade their Champion's base statistics as well as their abilities. The Arena of Champions never ceases until the player is defeated, and once they are defeated, all of their base stats and ability stats are reset/reduced. As the player fights, the Arena's difficulty ramps up, which will keep the player constantly on their toes.",
+  "private": "true",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephAmbayec/arena-of-champions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephAmbayec/arena-of-champions/issues"
+  },
+  "homepage": "https://github.com/JosephAmbayec/arena-of-champions#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
